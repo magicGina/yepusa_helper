@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+<br/>
 <div id="label_box" class="btn_box">
     <div onclick="openTab(event, 'page_1')" class="page_labels page_labels_active">钉子</div>
     <div onclick="openTab(event, 'page_2')" class="page_labels page_labels_gray">生吞</div>
@@ -18,6 +19,7 @@
     <div onclick="openTab(event, 'page_8')" class="page_labels page_labels_gray">空屋</div>
     <div onclick="openTab(event, 'page_9')" class="page_labels page_labels_gray">箱子</div>
 </div>
+<br/>
 <div id="page_box">
     <div id="page_1" class="div_box pages">
         <p class="bgm_biaoti">第一章、第二章上</p>
@@ -485,10 +487,345 @@
         <br/>
     </div>
 
-    <div id="page_9" style="display:none;" class="div_box pages page_gray">
+    <div id="page_9" style="display:none;" class="div_box pages page_gray table-container">
+        <img class="xiangzi" id="xiangzi1" onclick="showModal('xiangzi1','dangan1')" src="../imgs/1_01.gif" alt="一生为爱所困的人">
+        <img class="xiangzi" id="xiangzi2" onclick="showModal('xiangzi2','dangan2')" src="../imgs/1_02.gif" alt="英雄梦"><br/>
+        <img class="xiangzi" id="xiangzi3" onclick="showModal('xiangzi3','dangan3')" src="../imgs/1_03.gif" alt="胆小鬼">
+        <img class="xiangzi" id="xiangzi4" onclick="showModal('xiangzi4','dangan4')" src="../imgs/1_04.gif" alt="新时代摩登女性"><br/>
+        <img class="xiangzi" id="xiangzi5" onclick="showModal('xiangzi5','dangan5')" src="../imgs/1_05.gif" alt="专一却无爱的人">
+        <img class="xiangzi" id="xiangzi6" onclick="showModal('xiangzi6','dangan6')" src="../imgs/1_06.gif" alt="瞌睡虫"><br/>
+        <img class="xiangzi" id="xiangzi7" onclick="showModal('xiangzi7','dangan7')" src="../imgs/1_07.gif" alt="为半支烟而活的人">
+        <img class="xiangzi" id="xiangzi8" onclick="showModal('xiangzi8','dangan8')" src="../imgs/1_08.gif" alt="失去了一切的贼"><br/>
+        <br/>
     </div>
 </div>
+
+
+<div class="modal" id="dangan1">
+    <h3>黄山明｜一生为爱所困</h3>
+    <ul>
+        <li>1960年1月28日出生于东港市</li>
+        <li>
+            1982年，22岁<br/>
+            大学毕业，进入恒诚集团，<br/>
+            成为房产部门一名普通业务员。<br/>
+        </li>
+        <li>
+            1988年，28岁<br/>
+            成为恒诚集团售楼处最年轻的金牌销售<br/>
+            被赵恒诚赏识<br/>
+        </li>
+        <li>
+            1989年，29岁<br/>
+            成为恒诚集团驻长平办事处主任<br/>
+            与怀孕的妻子分居，独自移居长平县<br/>
+            在长平工作期间，<br/>
+            与长平县烟花厂厂长秘书交往密切<br/>
+        </li>
+        <li>
+            1989年12月22日～1990年1月2日<br/>
+            返回东港市，结束第一段婚姻<br/>
+        </li>
+        <li>
+            1990年，30岁<br/>
+            2月8日，与厂长秘书再婚。<br/>
+            拒绝了赵恒诚召其返回东港任职集团高层的提议，<br/>
+            至此留在长平，再未离开。<br/>
+        </li>
+        <li>
+            1994年，34岁<br/>
+            6月20日，与厂长秘书离婚<br/>
+        </li>
+        <li>
+            1994年～2010年<br/>
+            16年间鲜少外出，郁郁寡欢
+        </li>
+    </ul>
+    <br/>
+    <div class="btn_box">
+    <button class="button3" onclick="hideModal('dangan1')">关闭</button>
+    </div>
+</div>
+
+<div class="modal" id="dangan2">
+    <h3>毛钧｜英雄梦</h3>
+    <ul>
+        <li>
+            1974年1月18日出生于长平县<br/>
+        </li>
+        <li>
+            1974年～1989年<br/>
+            15岁以前都生活在长平<br/>
+        </li>
+        <li>
+            1989年，15岁<br/>
+            家人在12月31日的烟花厂大火中遇难<br/>
+        </li>
+        <li>
+            1989年～1994年，15岁～20岁<br/>
+            在长平县务工<br/>
+        </li>
+        <li>
+            1994年～1998年，20岁～24岁<br/>
+            杳无音讯<br/>
+        </li>
+        <li>
+            1998年，24岁<br/>
+            因涉嫌杀人碎尸，被警方通缉<br/>
+            至此音讯全无<br/>
+        </li>
+    </ul>
+    <br/>
+    <div class="btn_box">
+        <button class="button3" onclick="hideModal('dangan2')">关闭</button>
+    </div>
+</div>
+
+<div class="modal" id="dangan3">
+    <h3>唐亦刚｜胆小鬼</h3>
+    <ul>
+        <li>
+            1962年10月11日出生于林县<br/>
+        </li>
+        <li>
+            1984年，22岁<br/>
+            大学毕业，分配至长平烟花厂<br/>
+            担任厂办普通文职<br/>
+        </li>
+        <li>
+            1988年，26岁<br/>
+            成为长平烟花厂，厂长司机<br/>
+        </li>
+        <li>
+            1989年，27岁<br/>
+            长平烟花厂大火后失踪，<br/>
+            据传，和年仅17岁的情人卷走厂内一笔巨款，<br/>
+            偷渡香港。<br/>
+        </li>
+    </ul>
+    <br/>
+    <div class="btn_box">
+        <button class="button3" onclick="hideModal('dangan3')">关闭</button>
+    </div>
+</div>
+
+<div class="modal" id="dangan4">
+    <h3>黄丽丽｜新时代摩登女性</h3>
+    <ul>
+        <li>
+            1964年2月25日出生于衡阳<br/>
+        </li>
+        <li>
+            1967年，3岁<br/>
+            因为家乡重旱，<br/>
+            举家从湖南衡阳逃荒至珠海市<br/>
+        </li>
+        <li>
+            1973年，9岁<br/>
+            因家境贫寒，<br/>
+            被家人卖去邻村<br/>
+        </li>
+        <li>
+            1990年，26岁<br/>
+            因家人离世，<br/>
+            从珠海偷渡至香港。<br/>
+        </li>
+        <li>
+            1991年，27岁<br/>
+            租住在深水埗老唐楼<br/>
+        </li>
+        <li>
+            1995年，31岁<br/>
+            搬至港岛，经营一家饰品店<br/>
+        </li>
+        <li>
+            2010年，46岁<br/>
+            前往东港市<br/>
+        </li>
+    </ul>
+    <br/>
+    <div class="btn_box">
+        <button class="button3" onclick="hideModal('dangan4')">关闭</button>
+    </div>
+</div>
+
+<div class="modal" id="dangan5">
+    <h3>刘月｜专一却无爱的人</h3>
+    <ul>
+        <li>
+            1964年7月23日出生于兴成县<br/>
+        </li>
+        <li>
+            1985年，21岁<br/>
+            来到长平县，成为烟花厂出纳员<br/>
+        </li>
+        <li>
+            1987年，23岁<br/>
+            成为烟花厂厂长秘书<br/>
+            和厂长保持情人关系<br/>
+        </li>
+        <li>
+            1990年，26岁<br/>
+            成为烟花厂厂长<br/>
+            据传，背后有东港资本做保<br/><br/>
+            同年2月8日，<br/>
+            与东港市恒诚集团驻长平办事处主任结婚<br/>
+        </li>
+        <li>
+            1994年，30岁<br/>
+            6月12日，烟花厂破产清算，卸任厂长<br/>
+            6月20日，与丈夫离婚，离开长平<br/>
+        </li>
+        <li>
+            1994年～1998年，30～34岁<br/>
+            进修金融<br/>
+        </li>
+        <li>
+            1999年，35岁<br/>
+            成立朋盈金融<br/>
+        </li>
+        <li>
+            2010年，46岁<br/>
+            朋盈金融卷入东港官商纠纷<br/>
+        </li>
+    </ul>
+    <br/>
+    <div class="btn_box">
+        <button class="button3" onclick="hideModal('dangan5')">关闭</button>
+    </div>
+</div>
+
+<div class="modal" id="dangan6">
+    <h3>张舒｜瞌睡虫</h3>
+    <ul>
+        <li>
+            1972年6月29日出生于长平县<br/>
+        </li>
+        <li>
+            1972年～1981年<br/>
+            9岁以前，生活在长平<br/>
+        </li>
+        <li>
+            1979年，9岁<br/>
+            被送去农户家<br/>
+        </li>
+        <li>
+            1988年，16岁<br/>
+            返回长平<br/>
+        </li>
+        <li>
+            1989年，17岁<br/>
+            于12月31日烟花厂大火后失踪，<br/>
+            据传，和情人卷走厂内一笔巨款，<br/>
+            偷渡香港。<br/>
+        </li>
+        <li>
+            1994年，22岁<br/>
+            被警方指控涉嫌杀人分尸。<br/>
+        </li>
+    </ul>
+    <br/>
+    <div class="btn_box">
+        <button class="button3" onclick="hideModal('dangan6')">关闭</button>
+    </div>
+</div>
+
+<div class="modal" id="dangan7">
+    <h3>李长青｜为半只烟而活的人</h3>
+    <ul>
+        <li>
+            1962年11月1日出生于山喜县<br/>
+        </li>
+        <li>
+            1985年，23岁<br/>
+            来到长平，成为烟花厂厂长司机<br/>
+        </li>
+        <li>
+            1987年，25岁<br/>
+            长平官场动荡，不少官员一夜落马<br/>
+            一夜之间，从司机成为经贸委普通职员<br/>
+        </li>
+        <li>
+            1989年，27岁<br/>
+            被提拔为经贸委主任<br/>
+        </li>
+        <li>
+            1990年，28岁<br/>
+            被破格提拨进市局<br/>
+        </li>
+        <li>
+            1994年，32岁<br/>
+            年初被列为东港市长平区区长候选人<br/>
+            年中成为东港市长平区区长<br/>
+        </li>
+        <li>
+            2010年，48岁<br/>
+            提拔为东港市副市长<br/>
+        </li>
+    </ul>
+    <br/>
+    <div class="btn_box">
+        <button class="button3" onclick="hideModal('dangan7')">关闭</button>
+    </div>
+</div>
+
+<div class="modal" id="dangan8">
+    <h3>朱宝珍｜失去了一切的贼</h3>
+    <ul>
+        <li>
+            1974年4月9日出生于？<br/>
+        </li>
+        <li>
+            1981年，7岁<br/>
+            与姐姐搬来长平县<br/>
+        </li>
+        <li>
+            1983年～1994年，9岁～20岁<br/>
+            在东港完成学业，复读一年考入警校。<br/>
+        </li>
+        <li>
+            1994年～1998年，20岁～24岁<br/>
+            完成警校学业，<br/>
+            并分配至到东港市长平区刑警支队<br/>
+        </li>
+        <li>
+            1998年～2010年，24岁～36岁<br/>
+            调职东港市市局，担任档案员<br/>
+        </li>
+        <li>
+            2010年，36岁<br/>
+            检举揭发朋盈金融涉嫌洗钱，行贿。<br/>
+            举报东港市公安局徇私枉法。<br/><br/>
+            最终朋盈金融法人兼责任人，<br/>
+            以杀人罪，涉黑罪，行贿罪等罪名被最高检起诉。<br/>
+        </li>
+        <li>
+            2020年，46岁<br/>
+            在最高检的支持下，领导东港【1021】扫黑除恶专项行动。<br/>
+            将盘踞在东港六十余年的黑恶势力（如仁山实业/前恒诚集团，灏航海运等)，<br/>
+            及官场保护伞（如东港市副市长，市公安局局长等）<br/>
+            全部肃清。<br/>
+        </li>
+    </ul>
+    <br/>
+    <div class="btn_box">
+        <button class="button3" onclick="hideModal('dangan8')">关闭</button>
+    </div>
+</div>
+
+<script>
+    function showModal(imgName,danganName) {
+      document.getElementById(imgName).src = '../imgs/2.gif';
+      document.getElementById(danganName).style.display = 'block';
+    }
+
+    function hideModal(modalID) {
+      document.getElementById(modalID).style.display = 'none';
+    }
+
+</script>
 </body>
 </html>
+
 <script src="../js/tab.js"></script>
 <script src="../js/pause.js"></script>
