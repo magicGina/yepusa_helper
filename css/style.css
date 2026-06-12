@@ -41,7 +41,17 @@
             border: none;
             border-radius: 5px;
             color: white;
-            padding: 15px 32px;
+            padding: 12px 12px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        .button3{
+            background-color: #a88985;
+            border: none;
+            color: white;
+            padding: 0px 12px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
@@ -52,11 +62,12 @@
             border: none;
             border-radius: 5px 5px 0 0;
             color: white;
-            padding: 15px 32px;
+            padding: 12px 30px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
+            border-bottom: 2px solid rgba(57,11,0,0.7);
         }
         .page_labels_active{
             background-color: rgba(57,11,0,0.7);
