@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>野菩萨</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id = "nav">
+    <a href="html/download.html">资源分享</a>
+</div>
+<h3>宣和牌酒令助手
+</h3>
+<br/>
+<div class="btn_box">
+    <button id="btn1" class="button2">dm请点这里</button>
+    <button id="btn2" class="button2">玩家请点这里</button>
+</div>
+<br/>
+<div class="div_box">
+    <div class="txt" id="zhushi">
+        开始玩愉快地打本吧！~
+    </div>
+    <br/><br/>
+    <div class="img_box" id="tupian">
+    </div>
+</div>
+</body>
+</html>
+<script src="js/params.js"></script>
+<script>
+window.onload=function() {
+	document.getElementById('btn1').onclick = function(){
+    window.location.href = 'html/dm.html';
+    };
+    document.getElementById('btn2').onclick = function(){
+    window.location.href = 'html/player.html';
+    };
+}
+</script>

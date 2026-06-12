@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>野菩萨dm助手</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<audio id="audio_huala" src="../audio/哗啦.mp3">
+    您的浏览器不支持 audio 元素。
+</audio>
+<audio id="audio_dingdingdang" src="../audio/叮叮当1.mp3">
+    您的浏览器不支持 audio 元素。
+</audio>
+<audio id="audio_dingling" src="../audio/叮铃.mp3">
+    您的浏览器不支持 audio 元素。
+</audio>
+<audio id="audio_bo1" src="../audio/钵1.mp3">
+    您的浏览器不支持 audio 元素。
+</audio>
+<audio id="audio_bo2" src="../audio/钵2.mp3">
+    您的浏览器不支持 audio 元素。
+</audio>
+<div class="btn_box">
+<button id="huala" class="button2">哗啦</button>
+<button id="dingdingdang" class="button2">叮叮当</button>
+<button id="dingling" class="button2">叮铃</button>
+</div>
+<div class="btn_box">
+<button id="bo1" class="button2">钵1</button>
+<button id="bo2" class="button2">钵2</button>
+</div>
+</body>
+</html>
+<script>
+window.onload=function() {
+    document.getElementById('huala').onclick = function(){
+        var audio1 = document.getElementById('audio_huala');
+        audio1.currentTime = 0;
+        audio1.play();
+    };
+    document.getElementById('dingdingdang').onclick = function(){
+        var audio1 = document.getElementById('audio_dingdingdang');
+        audio1.currentTime = 0;
+        audio1.play();
+    };
+    document.getElementById('dingling').onclick = function(){
+        var audio1 = document.getElementById('audio_dingling');
+        audio1.currentTime = 0;
+        audio1.play();
+    };
+    document.getElementById('bo1').onclick = function(){
+        var audio1 = document.getElementById('audio_bo1');
+        audio1.currentTime = 0;
+        audio1.play();
+    };
+        document.getElementById('bo2').onclick = function(){
+        var audio1 = document.getElementById('audio_bo2');
+        audio1.currentTime = 0;
+        audio1.play();
+    };
+}
+</script>
