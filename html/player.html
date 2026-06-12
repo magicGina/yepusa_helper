@@ -2,10 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>野菩萨玩家页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>野菩萨</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-敬请期待<br/>
+<div id="label_box" class="btn_box">
+    <div onclick="openTab(event, 'page_1')" class="page_labels page_labels_active">钉子</div>
+    <div onclick="openTab(event, 'page_2')" class="page_labels page_labels_gray">生吞</div>
+    <div onclick="openTab(event, 'page_3')" class="page_labels page_labels_gray">远望</div>
+    <div onclick="openTab(event, 'page_4')" class="page_labels page_labels_gray">归乡</div>
+    <div onclick="openTab(event, 'page_5')" class="page_labels page_labels_gray">盛夏</div>
+    <div onclick="openTab(event, 'page_6')" class="page_labels page_labels_gray">银屏</div>
+    <div onclick="openTab(event, 'page_7')" class="page_labels page_labels_gray">美梦</div>
+    <div onclick="openTab(event, 'page_8')" class="page_labels page_labels_gray">空屋</div>
+    <div onclick="openTab(event, 'page_9')" class="page_labels page_labels_gray">箱子</div>
+</div>
+<div id="page_box">
+    <div id="page_1" class="div_box pages page_gray">
+
+    </div>
+
+    <div id="page_2" style="display:none;" class="div_box pages page_active">
+    </div>
+
+    <div id="page_3" style="display:none;" class="div_box pages page_gray">
+    </div>
+
+    <div id="page_4" style="display:none;" class="div_box pages page_gray">
+    </div>
+
+    <div id="page_5" style="display:none;" class="div_box pages page_gray">
+    </div>
+
+    <div id="page_6" style="display:none;" class="div_box pages page_gray">
+    </div>
+
+    <div id="page_7" style="display:none;" class="div_box pages page_gray">
+    </div>
+
+    <div id="page_8" style="display:none;" class="div_box pages page_gray">
+    </div>
+
+    <div id="page_9" style="display:none;" class="div_box pages page_gray">
+    </div>
+</div>
 </body>
 </html>
+<script src="../js/tab.js"></script>
