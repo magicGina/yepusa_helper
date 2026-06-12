@@ -92,8 +92,8 @@
             color: #5C3317;
         }
         .xiangzi{
-        width: 225px;
-        height: 150px;
+        width: 30vw;
+        height: 20vw;
         }
         .modal {
           display: none; /* 默认隐藏 */
@@ -110,6 +110,7 @@
           border: 2px solid rgba(57,11,0,0.7);
           text-align: left;
           min-height : 100px;
+          min-width : 400px;
           border-radius: 4px;
         }
         .modal h3{
