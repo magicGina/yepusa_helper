@@ -17,6 +17,8 @@
 <div class="btn_box">
     <button id="bo1" class="button2">钵1</button>
     <button id="bo2" class="button2">钵2</button>
+    <button id="bo3" class="button2">三声钵1</button>
+    <button id="bo4" class="button2">三声钵2</button>
 </div>
 <br/>
 <div class="div_box">
@@ -35,74 +37,81 @@
     <audio id="audio_bo2" src="../audio/钵2.mp3">
         您的浏览器不支持 audio 元素。
     </audio>
+    <audio id="audio_bo3" src="../audio/三声钵1.mp3">
+        您的浏览器不支持 audio 元素。
+    </audio>
+    <audio id="audio_bo4" src="../audio/三声钵2.mp3">
+        您的浏览器不支持 audio 元素。
+    </audio>
 </div>
 
 <div class="div_box">
     <h4>演绎歌单</h4>
 
-    <p class="bgm_biaoti">黄丽丽——新时代的摩登女性</p>&nbsp;BGM：《燃烧》
+    <p class="bgm_biaoti">黄丽丽——新时代的摩登女性</p>
+    BGM：《燃烧》
     <br/>
-    <audio controls src="../audio/yanyi/陈文非%20-%20燃烧.flac">
+    <audio controls src="../audio/yanyi/陈文非%20-%20燃烧.mp3">
         您的浏览器不支持 audio 元素。
     </audio>
     <br/>
     <br/>
 
-    <p class="bgm_biaoti">张舒——瞌睡虫</p>&nbsp;
+    <p class="bgm_biaoti">张舒——瞌睡虫</p>
     BGM:《蝴蝶 Demo》
     <br/>
-    <audio controls src="../audio/yanyi/魏诗莹 - 蝴蝶.mp3">
+    <audio controls src="../audio/yanyi/魏诗莹（Wishbao）%20-%20蝴蝶%20(Demo).mp3">
         您的浏览器不支持 audio 元素。
     </audio>
     <br/>
     <br/>
 
-    <p class="bgm_biaoti">朱宝珍——失去一切的贼</p>&nbsp;
+    <p class="bgm_biaoti">朱宝珍——失去一切的贼</p>
     BGM:《蝴蝶》
     <br/>
-    <audio controls src="../audio/yanyi/魏诗莹 - 蝴蝶.flac">
+    <audio controls src="../audio/yanyi/魏诗莹（Wishbao）%20-%20蝴蝶.mp3">
         您的浏览器不支持 audio 元素。
     </audio>
     <br/>
     <br/>
 
-    <p class="bgm_biaoti">刘月——专一却无爱的人</p>&nbsp;
+    <p class="bgm_biaoti">刘月——专一却无爱的人</p>
     BGM:《灿》
     <br/>
-    <audio controls src="../audio/yanyi/旧北乐队%20-%20灿.flac">
+    <audio controls src="../audio/yanyi/旧北乐队%20-%20灿.mp3">
         您的浏览器不支持 audio 元素。
     </audio>
     <br/>
     <br/>
 
-    <p class="bgm_biaoti">为半支烟而活的人——李长青</p>&nbsp;
+    <p class="bgm_biaoti">为半支烟而活的人——李长青</p>
     BGM:《群山之外》
     <br/>
-    <audio controls src="../audio/yanyi/贰佰%20-%20群山之外.flac">
+    <audio controls src="../audio/yanyi/贰佰%20-%20群山之外.mp3">
         您的浏览器不支持 audio 元素。
     </audio>
     <br/>
     <br/>
 
-    <p class="bgm_biaoti">胆小鬼——唐亦刚</p>&nbsp;
+    <p class="bgm_biaoti">胆小鬼——唐亦刚</p>
     BGM:《模糊》
     <br/>
-    <audio controls src="../audio/yanyi/张鑫%20-%20模糊.flac">
+    <audio controls src="../audio/yanyi/张鑫%20-%20模糊.mp3">
         您的浏览器不支持 audio 元素。
     </audio>
     <br/>
     <br/>
 
-    <p class="bgm_biaoti">一生为爱所困的人——黄山明</p>&nbsp;
+    <p class="bgm_biaoti">一生为爱所困的人——黄山明</p>
     BGM:《局外人》
     <br/>
-    <audio controls src="../audio/yanyi/宁梦恬%20-%20局外人（音乐剧《奇美拉》宣传曲）.flac">
+    <audio controls src="../audio/yanyi/宁梦恬%20-%20局外人.mp3">
         您的浏览器不支持 audio 元素。
     </audio>
     <br/>
     <br/>
 
-    <p class="bgm_biaoti">英雄梦——毛钧</p>&nbsp;
+    <p class="bgm_biaoti">英雄梦——毛钧</p>
     BGM:《我要你》
     <br/>
     <audio controls src="../audio/yanyi/李友廷%20-%20我要你.mp3">
@@ -152,6 +161,16 @@
         };
             document.getElementById('bo2').onclick = function(){
             var audio1 = document.getElementById('audio_bo2');
+            audio1.currentTime = 0;
+            audio1.play();
+        };
+        document.getElementById('bo3').onclick = function(){
+            var audio1 = document.getElementById('audio_bo3');
+            audio1.currentTime = 0;
+            audio1.play();
+        };
+            document.getElementById('bo4').onclick = function(){
+            var audio1 = document.getElementById('audio_bo4');
             audio1.currentTime = 0;
             audio1.play();
         };
