@@ -50,8 +50,9 @@
         .button3{
             background-color: #a88985;
             border: none;
+            border-radius: 3px;
             color: white;
-            padding: 0px 12px;
+            padding: 3px 12px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
@@ -62,7 +63,7 @@
             border: none;
             border-radius: 5px 5px 0 0;
             color: white;
-            padding: 12px 30px;
+            padding: 12px 20px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
