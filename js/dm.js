@@ -1,7 +1,5 @@
 
 
-    window.onload=function() {
-
     /*音效按钮和音效组件绑定*/
         document.getElementById('huala').onclick = function(){
             var audio1 = document.getElementById('audio_huala');
@@ -48,4 +46,3 @@
             audio1.currentTime = 0;
             audio1.play();
         };
-    }
